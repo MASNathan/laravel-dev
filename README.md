@@ -6,7 +6,7 @@ This package is meant to be used on development only.
 
 Require this package with composer using the following command:
 ```bash
-composer require barryvdh/laravel-ide-helper --dev
+composer require masnathan/laravel-dev --dev
 ```
 In Laravel, instead of adding the service provider in the `config/app.php` file, you can add the 
 following code to your `app/Providers/AppServiceProvider.php` file, within the `register()` method:
