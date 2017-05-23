@@ -1,0 +1,24 @@
+{
+    "name": "masnathan/laravel-dev",
+    "description": "Laravel Development Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Filipe",
+            "email": "andre.r.flip@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.4",
+        "percymamedy/laravel-dev-booter": "^0.2.1",
+        "barryvdh/laravel-ide-helper": "^2.3",
+        "maddhatter/laravel-view-generator": "^0.0.4",
+        "laracademy/interactive-make": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MASNathan\\LaravelDev\\": "src/"
+        }
+    }
+}
