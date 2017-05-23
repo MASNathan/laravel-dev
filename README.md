@@ -19,7 +19,12 @@ public function register()
     // ...
 }
 ```
-This will allow your application to load the Laravel IDE Helper on non-production environments.
+This will allow your application to load the Laravel Dev on non-production environments.
+
+To publish the **configurations** you can simply run the following command:
+```bash
+php artisan vendor:publish --provider="MASNathan\LaravelDev\ServiceProvider" --tag="config"
+```
 
 That's it!
 
